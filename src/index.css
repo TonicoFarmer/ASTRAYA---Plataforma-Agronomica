@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+/* LIGHT THEME OVERRIDES */
+body.light-theme,
+.light-theme {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Ensure header and bottom nav retain high contrast in light mode */
+.light-theme header {
+  background-color: #064e3b !important; /* Rich dark emerald header */
+  color: #ffffff !important;
+}
+
+.light-theme header h1,
+.light-theme header span,
+.light-theme header p {
+  color: #ffffff !important;
+}
+
+.light-theme header .bg-emerald-800 {
+  background-color: #047857 !important;
+  color: #ffffff !important;
+  border-color: #059669 !important;
+}
+
+.light-theme header .text-emerald-300 {
+  color: #a7f3d0 !important;
+}
+
+/* Card & Container Overrides for Light Mode */
+.light-theme .bg-slate-950 {
+  background-color: #ffffff !important;
+  color: #0f172a;
+}
+
+.light-theme .bg-slate-900 {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+.light-theme .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+  color: #1e293b;
+}
+
+/* Typography Overrides inside light mode containers */
+.light-theme .text-slate-100 {
+  color: #0f172a !important;
+}
+
+.light-theme .text-slate-200 {
+  color: #1e293b !important;
+}
+
+.light-theme .text-slate-300 {
+  color: #334155 !important;
+}
+
+.light-theme .text-slate-400 {
+  color: #475569 !important;
+}
+
+.light-theme .border-slate-800 {
+  border-color: #cbd5e1 !important;
+}
+
+/* Section Banners in Light Mode */
+.light-theme .bg-emerald-950,
+.light-theme .bg-emerald-950\/90,
+.light-theme .bg-emerald-950\/80,
+.light-theme .bg-emerald-950\/60 {
+  background-color: #f0fdf4 !important;
+  border-color: #86efac !important;
+}
+
+.light-theme .bg-amber-950,
+.light-theme .bg-amber-950\/90,
+.light-theme .bg-amber-950\/80 {
+  background-color: #fffbeb !important;
+  border-color: #fde047 !important;
+}
+
+/* Form Controls in Light Mode */
+.light-theme input,
+.light-theme select,
+.light-theme textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+.light-theme input::placeholder,
+.light-theme textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+.light-theme option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+
